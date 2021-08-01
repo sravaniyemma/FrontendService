@@ -1,0 +1,22 @@
+.userDataTable {
+  width: 100%;
+}
+
+.deleteForeverIcon {
+  cursor: pointer;
+}
+
+th {
+  /* font-weight: bold; */
+  font-size: 15px;
+  color: black
+}
+
+.mat-column-id,
+.mat-column-name,
+.mat-column-email,
+.mat-column-phone,
+.mat-column-password {
+  padding: 5px;
+  ;
+}

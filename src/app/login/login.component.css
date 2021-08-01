@@ -1,0 +1,33 @@
+.login-main {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  min-height: 80%;
+}
+
+mat-card {
+  min-width: 30%;
+  max-width: 50%;
+}
+
+mat-form-field {
+  padding: 0% 2%;
+}
+
+[class*="mat-"] {
+  border-radius: 3%;
+}
+
+button {
+  background-color: #242B2E;
+  color: #fff;
+}
+
+mat-icon {
+  font-size: 200px;
+  width: 100%;
+}
+
+.classIcon {
+  text-align: center;
+  color: #A9A9A9;
+}

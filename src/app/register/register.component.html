@@ -1,0 +1,34 @@
+  <div fxLayout="row" fxLayoutAlign="center" class="register-main">
+    <mat-card>
+      <!-- <mat-card-title>Login Page</mat-card-title> -->
+      <div class="classIcon">
+        <mat-icon>class</mat-icon>
+      </div>
+
+      <!-- USER REGISTRATION FORM -->
+      <form #registrationForm="ngForm" (ngSubmit)="onSubmit(registrationForm.form.value)">
+        <mat-card-content fxLayout="column">
+          <mat-form-field>
+            <input type="text" matInput class="form-control" name="name" ngModel placeholder="Name" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input type="email" matInput class="form-control" name="email" ngModel placeholder="Email">
+          </mat-form-field>
+          <mat-form-field>
+            <input type="text" matInput class="form-control" name="phone" ngModel placeholder="Phone">
+          </mat-form-field>
+          <mat-form-field>
+            <input type="password" matInput class="form-control" name="password" ngModel placeholder="password"
+              required>
+          </mat-form-field>
+        </mat-card-content>
+        <div align="center">
+          <mat-card-actions>
+            <button mat-raised-button type="submit">Register</button>
+          </mat-card-actions>
+          <p> Already Registered? <a routerLink="/login">Sign in!</a></p>
+        </div>
+      </form>
+
+    </mat-card>
+  </div>
